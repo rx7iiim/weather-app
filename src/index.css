@@ -1,0 +1,118 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 2.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body {
+  position: relative;
+  margin: 0;
+  background-image: image-set(assets/pexels-pixabay-209831.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+#cityName {
+  margin-top: 20px;
+  width: 100%;
+  height: 50px;
+  background-color: transparent;
+  color: white;
+  border-radius: 10px;
+  border: white 1px solid;
+}
+.inputs {
+  min-height: 450px;
+  scale: 1.5;
+  border: transparent;
+  height: fit-content;
+  width: fit-content;
+  padding: 10px;
+  border-radius: 16px;
+  backdrop-filter: blur(20px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  width: 460px;
+  box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.15);
+}
+.but {
+  background-color: transparent;
+  border: 1px solid white;
+  margin-top: 9px;
+  width: max-content;
+}
+.imginpu {
+  background-color: transparent;
+  height: 100px;
+  width: 100px;
+  margin-top: 10px;
+}
