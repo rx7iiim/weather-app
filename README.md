@@ -1,3 +1,5 @@
+![Alt Text](main/src/assets/Screenshot%202024-08-12%20101527.png)
+
 Welcome to [react-weather-app], your go-to platform for accurate and up-to-date weather information. Powered by React and integrated with the [openweathermap], our website offers a sleek and responsive design that ensures you stay informed about the weather, no matter where you are or what device you’re using.
 
 Whether you're planning your day, preparing for a trip, or simply curious about the weather in different parts of the world, this website provides detailed weather forecasts, current conditions, and more. With real-time data updates, you can trust that the information you receive is both reliable and timely.
